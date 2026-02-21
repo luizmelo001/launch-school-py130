@@ -16,3 +16,8 @@ class Car:
         if not isinstance(value, str):
             raise TypeError("Name must be a string")
         self._name = value
+
+    def __eq__(self, other):
+        if isinstance(other, Car):
+            return self.name == other.name
+        return False
