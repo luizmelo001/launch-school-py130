@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "todolist_luizmelo001"
+version = "0.1.0"
+authors = [
+    {name = "Luiz Melo", email = "luizmelo001@gmail.com"},
+]
+description = "A fantastic todo list application."
+readme = "README.md"
+requires-python = ">=3.8"
+license = { text = "MIT" }
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "flask",
+    "numpy",
+]  # Add any dependencies here, like ["requests"] if your code needs them
+
+[project.urls]
+Homepage = "https://github.com/luizmelo001/todolist"
+Issues = "https://github.com/luizmelo001/todolist/issues"

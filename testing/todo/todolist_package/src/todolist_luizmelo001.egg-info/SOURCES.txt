@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+src/todolist_luizmelo001/__init__.py
+src/todolist_luizmelo001/todo.py
+src/todolist_luizmelo001/todolist.py
+src/todolist_luizmelo001.egg-info/PKG-INFO
+src/todolist_luizmelo001.egg-info/SOURCES.txt
+src/todolist_luizmelo001.egg-info/dependency_links.txt
+src/todolist_luizmelo001.egg-info/requires.txt
+src/todolist_luizmelo001.egg-info/top_level.txt
+tests/test_todolist.py
